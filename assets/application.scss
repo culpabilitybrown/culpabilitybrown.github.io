@@ -54,6 +54,13 @@ body {
   }
 
   text-align: right;
+
+  padding-top: $padding-small-vertical;
+  padding-bottom: $padding-small-vertical;
+}
+
+dt {
+  padding-left: $padding-large-horizontal;
 }
 
 nav {
