@@ -5,7 +5,7 @@
 @import 'bootstrap-custom';
 @import 'bootstrap';
 
-$footer-height: 50px;
+$footer-height: 40px;
 
 html {
   position: relative;
@@ -38,31 +38,9 @@ body {
 
   a:hover {
     text-decoration: none;
-    color: $mauve;
+    color: $grey-green;
   }
 }
-
-/* Header styles
--------------------------------------------------- */
-
-$header-height: 250px;
-
-.header {
-  top: 0;
-  width: 100%;
-
-  height: $header-height;
-  margin-top: 0px;
-  position: relative;
-  background: url(/assets/images/senettis.jpg);
-
-  .logo {
-    width: 100%;
-    height: auto;
-  }
-}
-
-/* End header */
 
 nav {
   background-image: url(/assets/images/grass.jpg);
@@ -75,17 +53,57 @@ nav {
   border: 0px;
 }
 
+/* navbar */
+.navbar-default {
+}
+/* title */
 .navbar-default .navbar-brand {
   color: white;
 }
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: blue;
+  color: $green-light;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: $green-light;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: $green;
+  background-color: white;
+  opacity: 0.5;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: $green;
+  background-color: white;
+  opacity: 0.5;
 }
 
-.navbar-default .navbar-nav > li {
-  a {
-    color: white;
+/* mobile version */
+.navbar-default .navbar-toggle {
+  border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #CCC;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
   }
 }
