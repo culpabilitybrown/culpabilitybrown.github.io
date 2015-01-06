@@ -1,7 +1,11 @@
 - title:       Github
-  url:         https://github.com/samsgardem
+  url:         https://github.com/culpabilitybrown
   fontawesome: fa-github
 
 - title:       Twitter
   url:         https://twitter.com/sams_garden
   fontawesome: fa-twitter
+
+- title:       Pinterest
+  url:         http://www.pinterest.com/pikesley/garden-ideas/
+  fontawesome: fa-pinterest
