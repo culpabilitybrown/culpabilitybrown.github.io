@@ -13,5 +13,6 @@ defaults:
 
     values:
       layout: blost
+      parent: blog
 
 permalink: pretty

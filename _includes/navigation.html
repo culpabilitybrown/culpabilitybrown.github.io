@@ -17,6 +17,8 @@
         {% for item in site.data.navigation %}
           {% if item.path == page.url %}
             <li class='active'>
+          {% elsif item.path contains page.parent %}
+            <li class='active'>
           {% else %}
             <li>
           {% endif %}
