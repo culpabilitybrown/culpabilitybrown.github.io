@@ -15,6 +15,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: $footer-height;
+  padding-top: 70px;
 }
 
 .footer {
@@ -52,7 +53,6 @@ $header-height: 250px;
 
   height: $header-height;
   margin-top: 0px;
-  margin-bottom: 20px;
   position: relative;
   background: url(/assets/images/senettis.jpg);
 
@@ -60,22 +60,12 @@ $header-height: 250px;
     width: 100%;
     height: auto;
   }
-
-  .slogan {
-    font-size: 3em;
-    color: $mauve;
-    font-family: $font-family-slogan;
-    position: absolute;
-    bottom: 0;
-    right: 10px;
-  }
 }
 
 /* End header */
 
 nav {
-  margin: 0px;
-  margin-top: -25px;
+  background-image: url(/assets/images/grass.jpg);
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -83,4 +73,19 @@ nav {
 
 .navbar {
   border: 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: blue;
+}
+
+.navbar-default .navbar-nav > li {
+  a {
+    color: white;
+  }
 }

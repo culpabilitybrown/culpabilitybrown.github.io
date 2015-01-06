@@ -2,4 +2,4 @@
 layout: default
 ---
 
-Sam’s Garden Coming Soon!
+Last year, we had a [lot of success](https://www.flickr.com/photos/pikesley/sets/72157644197110144/) with our garden, but a great deal of that was down to dumb luck. This year I have much more of an idea of what I'm doing, and I intend to take a much more rigorous approach and record my adventures here...

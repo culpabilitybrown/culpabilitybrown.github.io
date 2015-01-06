@@ -1,0 +1,7 @@
+<dl class='blog-archive'>
+  {% for blost in site.categories.blog %}
+    <dt>
+      {{ blost.date | date: '%Y-%m-%d'}}: <a href='{{ blost.url }}'>{{ blost.title }}</a>
+    </dt>
+  {% endfor %}
+</dl>
