@@ -1,0 +1,86 @@
+---
+---
+
+@import 'fonts';
+@import 'bootstrap-custom';
+@import 'bootstrap';
+
+$footer-height: 50px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: $footer-height;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $grey-green-dark;
+
+  margin-top: $padding-large-vertical;
+
+  opacity: 1;
+  color: white;
+  height: $footer-height;
+
+  padding: $padding-large-vertical $padding-large-horizontal;
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: $mauve;
+  }
+}
+
+/* Header styles
+-------------------------------------------------- */
+
+$header-height: 250px;
+
+.header {
+  top: 0;
+  width: 100%;
+
+  height: $header-height;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  position: relative;
+  background: url(/assets/images/senettis.jpg);
+
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .slogan {
+    font-size: 3em;
+    color: $mauve;
+    font-family: $font-family-slogan;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
+}
+
+/* End header */
+
+nav {
+  margin: 0px;
+  margin-top: -25px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+}
+
+.navbar {
+  border: 0px;
+}
