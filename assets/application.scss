@@ -15,6 +15,11 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: $footer-height;
+
+  a:hover {
+    text-decoration: none;
+    color: $gray;
+  }
 }
 
 .footer {
@@ -37,6 +42,7 @@ body {
 
   a:hover {
     text-decoration: none;
+    color: $gray;
   }
 }
 
@@ -54,16 +60,37 @@ body {
 
   padding-top: $padding-small-vertical;
   padding-bottom: $padding-small-vertical;
+
+  h2 {
+    font-size: 2.5em;
+  }
+  font-size: 0.5em;
 }
 
 .blog-archive {
   dt {
-    padding-left: $padding-large-horizontal;
+    font-size: 2em;
+  }
+
+  a {
+  }
+
+  .fa {
+    font-size: 0.7em;
+  }
+}
+
+.blost {
+  h2 {
+    font-variant: italic;
+    font-size: 1em;
+    text-align: right;
+    color: $gray-light;
   }
 }
 
 .plant-list, .animal-list {
-  dd {
+  dt {
     font-size: 2em;
   }
 
@@ -92,12 +119,14 @@ nav {
 }
 /* title */
 .navbar-default .navbar-brand {
+  color: white;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
+  color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {

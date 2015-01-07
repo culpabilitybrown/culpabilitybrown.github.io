@@ -1,10 +1,7 @@
 <dl class='blog-archive'>
   {% for blost in site.categories.blog %}
-  <dd>
-    {{ blost.date | date: '%Y-%m-%d'}}:
-  </dd>
-  <dt>
-    <a href='{{ blost.url }}'>{{ blost.title }}</a>
-  </dt>
+    {% unless blost.url == page.urkl %}
+      {% include blost-link.html title = blost.title url = blost.url no_excerpts = include.no_excerpts excerpt = blost.excerpt %}
+    {% endunless %}
   {% endfor %}
 </dl>

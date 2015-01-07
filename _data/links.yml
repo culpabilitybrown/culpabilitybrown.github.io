@@ -13,3 +13,7 @@
 - title:       Pinterest
   url:         http://www.pinterest.com/pikesley/garden-ideas/
   fontawesome: fa-pinterest
+
+- title:       Instructables
+  url:         http://www.instructables.com/member/pikesley?show=INSTRUCTABLES
+  fontawesome: fa-wrench

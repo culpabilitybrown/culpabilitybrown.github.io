@@ -5,14 +5,14 @@ title: Animals we have seen in our garden
 <dl class='animal-list'>
   {% assign animals = site.data.animals | sort: 'name' %}
   {% for animal in animals %}
-    <dd>
-      <i class='fa fa-paw'></i> <a href='{{ animal.link }}'>{{ animal.name }}</a>
-    </dd>
     <dt>
+      <i class='fa fa-paw'></i> <a href='{{ animal.link }}'>{{ animal.name }}</a>
+    </dt>
+    <dd>
       {{ animal.comment }}
       {% if animal.photo %}
         <a href='{{ animal.photo}}'>[photo]</a>
       {% endif %}
-    </dt>
+    </dd>
   {% endfor %}
 </dl>
