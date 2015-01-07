@@ -15,7 +15,6 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: $footer-height;
-  color: $gray-darker;
 }
 
 .footer {
@@ -38,7 +37,6 @@ body {
 
   a:hover {
     text-decoration: none;
-    color: $gray-light;
   }
 }
 
@@ -47,8 +45,7 @@ body {
     font-size: 1.5em;
   }
 
-  background-color: $gray;
-  color: $gray-dark;
+  background-color: $brand-primary;
   a {
     color: white;
   }
@@ -68,21 +65,18 @@ body {
 .plant-list, .animal-list {
   dd {
     font-size: 2em;
-    color: $gray;
   }
 
   a {
-    color: $gray;
   }
 
   .fa {
     font-size: 0.7em;
-    color: $gray-light;
   }
 }
 
 nav {
-  background-image: url(/assets/images/grass.jpg);
+  background-color: $brand-primary;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -90,6 +84,7 @@ nav {
 
 .navbar {
   border: 0px;
+  background-color: $brand-primary;
 }
 
 /* navbar */
@@ -97,32 +92,24 @@ nav {
 }
 /* title */
 .navbar-default .navbar-brand {
-  color: white;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: $gray-light;
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
-  color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: $gray-light;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: $gray;
-  background-color: white;
   opacity: 0.5;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: $gray;
-  background-color: white;
   opacity: 0.5;
 }
 
