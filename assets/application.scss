@@ -59,8 +59,26 @@ body {
   padding-bottom: $padding-small-vertical;
 }
 
-dt {
-  padding-left: $padding-large-horizontal;
+.blog-archive {
+  dt {
+    padding-left: $padding-large-horizontal;
+  }
+}
+
+.plant-list, .animal-list {
+  dd {
+    font-size: 2em;
+    color: $gray;
+  }
+
+  a {
+    color: $gray;
+  }
+
+  .fa {
+    font-size: 0.7em;
+    color: $gray-light;
+  }
 }
 
 nav {
