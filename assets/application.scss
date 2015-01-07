@@ -15,13 +15,14 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: $footer-height;
+  color: $gray-darker;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: $grey-green-dark;
+  background-color: $brand-primary;
 
   margin-top: $padding-large-vertical;
 
@@ -37,7 +38,7 @@ body {
 
   a:hover {
     text-decoration: none;
-    color: $grey-green;
+    color: $gray-light;
   }
 }
 
@@ -46,8 +47,8 @@ body {
     font-size: 1.5em;
   }
 
-  background-color: $green;
-  color: $grey-mauve;
+  background-color: $gray;
+  color: $gray-dark;
   a {
     color: white;
   }
@@ -82,7 +83,7 @@ nav {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: $green-light;
+  color: $gray-light;
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
@@ -90,19 +91,19 @@ nav {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: $green-light;
+  color: $gray-light;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: $green;
+  color: $gray;
   background-color: white;
   opacity: 0.5;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: $green;
+  color: $gray;
   background-color: white;
   opacity: 0.5;
 }
