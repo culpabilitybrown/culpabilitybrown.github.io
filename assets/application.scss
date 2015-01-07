@@ -5,7 +5,7 @@
 @import 'bootstrap-custom';
 @import 'bootstrap';
 
-$footer-height: 40px;
+$footer-height: 50px;
 
 html {
   position: relative;
@@ -86,6 +86,10 @@ body {
   .fa {
     font-size: 0.5em;
   }
+}
+
+.license {
+  font-size: 0.5em;
 }
 
 nav {
