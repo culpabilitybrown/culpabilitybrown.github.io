@@ -4,13 +4,13 @@ layout: boilerplate
 
 <div class='row'>
   <div class='col-md-2'></div>
-  <div class='col-md-7 blost'>
+  <div class='col-md-8 blost'>
     <h2>{{ page.date | date: '%Y-%m-%d' }}</h2>
     <h1>{{ page.title }}</h1>
     {{ content }}
   </div>
-  <div class='col-md-3 sidebar'>
+  <div class='col-md-2 sidebar'>
     <h2>More from the <a href='/blog/'>blog</a></h2>
-    {% include blog-archive.html no_excerpts = true %}
+    {% include blog-archive.html no_excerpts = true no_fa = true %}
   </div>
 </div>

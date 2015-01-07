@@ -67,29 +67,15 @@ body {
   font-size: 0.5em;
 }
 
-.blog-archive {
-  dt {
-    font-size: 2em;
-  }
-
-  a {
-  }
-
-  .fa {
-    font-size: 0.7em;
-  }
-}
-
 .blost {
   h2 {
     font-variant: italic;
     font-size: 1em;
-    text-align: right;
     color: $gray-light;
   }
 }
 
-.plant-list, .animal-list {
+.plant-list, .animal-list, .blog-archive {
   dt {
     font-size: 2em;
   }
@@ -98,7 +84,7 @@ body {
   }
 
   .fa {
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
 }
 

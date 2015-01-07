@@ -1,7 +1,7 @@
 <dl class='blog-archive'>
   {% for blost in site.categories.blog %}
     {% unless blost.url == page.urkl %}
-      {% include blost-link.html title = blost.title url = blost.url no_excerpts = include.no_excerpts excerpt = blost.excerpt %}
+      {% include blost-link.html title = blost.title url = blost.url no_excerpts = include.no_excerpts no_fa = include.no_fa excerpt = blost.excerpt %}
     {% endunless %}
   {% endfor %}
 </dl>
