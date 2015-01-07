@@ -1,6 +1,3 @@
-#- title: Photos
-#  path:  /photos/
-
 - title: Blog
   path:  /blog/
 
@@ -9,6 +6,9 @@
 
 - title: Animals
   path:  /animals/
+
+- title: Photos
+  path:  /photos/
 
 - title: Pinterest
   path:  /pinterest/
