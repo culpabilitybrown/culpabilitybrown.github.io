@@ -1,5 +1,8 @@
+{% assign year = page.date | date: '%Y' %}
+{% capture year %}{{ 'y' | append: year }}{% endcapture %}
+
 <div class='thumbnail'>
   <div class='embed-responsive embed-responsive-16by9'>
-    <iframe src='https://www.flickr.com/photos/pikesley/{{ include.id }}/in/set-{{ site.data.flickr.2015-set }}/player/' allowfullscreen></iframe>
+    <iframe src='https://www.flickr.com/photos/pikesley/{{ include.id }}/in/set-{{ site.data.flickr[year].set }}/player/' allowfullscreen></iframe>
   </div>
 </div>
