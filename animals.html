@@ -6,7 +6,8 @@ title: Animals we have seen in our garden
   {% assign animals = site.data.animals | sort: 'name' %}
   {% for animal in animals %}
     <dt>
-      <i class='fa fa-paw'></i> <a href='{{ animal.link }}'>{{ animal.name }}</a>
+      <!-- <i class='fa fa-paw'></i> -->
+      <a href='{{ animal.link }}'>{{ animal.name }}</a>
     </dt>
     <dd>
       {{ animal.comment }}

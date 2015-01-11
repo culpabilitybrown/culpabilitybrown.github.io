@@ -6,7 +6,8 @@ title: Plants we have in our garden
   {% assign plants = site.data.plants | sort: 'name' %}
   {% for plant in plants %}
     <dt>
-      <i class='fa fa-tree'></i> <a href='{{ plant.link }}'>{{ plant.name }}</a>
+      <!-- <i class='fa fa-tree'></i> -->
+      <a href='{{ plant.link }}'>{{ plant.name }}</a>
     </dt>
     <dd>
       {{ plant.comment }}
