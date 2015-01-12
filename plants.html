@@ -2,19 +2,4 @@
 title: Plants we have in our garden
 ---
 
-<dl class='plant-list'>
-  {% assign plants = site.data.plants | sort: 'name' %}
-  {% for plant in plants %}
-    <dt>
-      <!-- <i class='fa fa-tree'></i> -->
-      <a href='{{ plant.link }}'>{{ plant.name }}</a>
-    </dt>
-    <dd>
-      {{ plant.comment }}
-      {% if plant.photo %}
-        <a href='{{ plant.photo}}'>[photo]</a>
-      {% endif %}
-    </dd>
-    <hr />
-  {% endfor %}
-</dl>
+{% include list-of.html things = 'plants' %}
