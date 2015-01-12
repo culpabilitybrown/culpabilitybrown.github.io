@@ -1,9 +1,23 @@
+- name: Blue tit
+  link: http://www.rspb.org.uk/discoverandenjoynature/discoverandlearn/birdguide/name/b/bluetit/
+  comment: Frequently seen at the suet balls
+  photo: https://www.flickr.com/photos/pikesley/14622061026/in/set-72157644197110144
+
 - name: Grey squirrel
   link: http://en.wikipedia.org/wiki/Eastern_gray_squirrel
   comment: They come round all the time, attempting to eat the birdfood
   photo: https://www.flickr.com/photos/pikesley/13979382043/in/set-72157644197110144
 
+- name: Great tit
+  link: http://www.rspb.org.uk/discoverandenjoynature/discoverandlearn/birdguide/name/g/greattit/
+  comment: Frequently seen on the bird feeders
+  photo: https://www.flickr.com/photos/pikesley/14622061026/in/set-72157644197110144
+
 - name: Great-spotted woodpecker
   link: http://www.rspb.org.uk/discoverandenjoynature/discoverandlearn/birdguide/name/g/greatspottedwoodpecker/
   comment: Occasionally seen eating the suet balls
   photo: https://www.flickr.com/photos/pikesley/15436488737/in/photolist-
+
+- name: Jay
+  link: http://www.rspb.org.uk/discoverandenjoynature/discoverandlearn/birdguide/name/j/jay/
+  comment: Very occasionally seen grubbing about on the lawn under the bird feeders
