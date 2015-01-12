@@ -1,4 +1,4 @@
-We made a trip to [Crews Hill](http://www.crewshill.com/) yesterday, where I made my first gardening purchase of 2015: a propagator and a small selection of seeds. I planted the following this morning:
+We took a trip to [Crews Hill](http://www.crewshill.com/) yesterday, where I made my first gardening purchase of 2015: a propagator and a small selection of seeds. I planted the following this morning:
 
 * 10 x [100s and 1000s tomatoes](http://tomato-daily.blogspot.co.uk/2009/08/100s-1000s.html)
 * 20 x [Ildi tomatoes](http://www.thompson-morgan.com/vegetables/vegetable-seeds/tomato-seeds/tomato-ildi/404TM)
