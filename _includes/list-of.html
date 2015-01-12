@@ -2,15 +2,17 @@
 <dl class='{{ things }}-list'>
   {% assign items = site.data[things] | sort: 'name' %}
   {% for item in items %}
-  <dt>
-    <a href='{{ item.link }}'>{{ item.name }}</a>
-  </dt>
-  <dd>
-    {{ item.comment }}
-    {% if item.photo %}
-    <a href='{{ item.photo}}'>[photo]</a>
+    <dt>
+      <a href='{{ item.link }}'>{{ item.name }}</a>
+    </dt>
+    <dd>
+      {{ item.comment }}
+      {% if item.photo %}
+      <a href='{{ item.photo}}'>[photo]</a>
+      {% endif %}
+    </dd>
+    {% if forloop.rindex > 1 %}
+      <hr />
     {% endif %}
-  </dd>
-  <hr />
   {% endfor %}
 </dl>
