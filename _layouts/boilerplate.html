@@ -20,7 +20,14 @@
 
     <link rel='stylesheet' href='/assets/application.css' type='text/css' />
     <link rel='icon' type='image/gif' href='/assets/favicon.png' />
-    <title>{{ page.title }}</title>
+    {% assign title = page.title %}
+    {% if page.short_title %}
+      {% assign title = page.short_title %}
+    {% endif %}
+    {% if page.prefix %}
+      {% capture title %}{{ page.prefix }} &raquo; {{ page.title }}{% endcapture %}
+    {% endif %}
+    <title>{{ title }}</title>
   </head>
 
   <body>
