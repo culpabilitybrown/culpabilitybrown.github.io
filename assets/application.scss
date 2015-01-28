@@ -89,6 +89,12 @@ body {
   }
 }
 
+.blog-archive {
+  dt {
+    padding-top: $padding-large-vertical;
+  }
+}
+
 .license {
   font-size: 0.7em;
 }
